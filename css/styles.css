@@ -64,6 +64,12 @@ hr{
   padding: 0 400px;
 }
 /* ***********experience*************************************** */
+#experience img{
+  width: auto;
+  height: 50px;
+  border-radius: 50%
+
+}
 #experience .contenu-experience{
   display: flex;
   justify-content: center;
