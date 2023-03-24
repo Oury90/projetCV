@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,400&family=Montserrat:wght@400;700&family=Sacramento&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+section{
+  padding: 100px 0;
+}
+h2{
+  font-size: 2em;
+  font-weight: bold;
+  color: #66bfbf;
+  margin: 30px 0;
+}
+p{
+  padding: 0 20%;
+  line-height: 25px;
+}
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: auto auto;
+
+}
+/* ***********header top**************************************** */
+#top{
+  padding: 40px 0 0 0;
+  background-color: #eaf6f6;
+  text-align: center;
+}
+#top .image1{
+  margin-left: 700px;
+}
+#top .image2{
+  margin-bottom: 300px;
+}
+#top h1{
+  font-family: "Sacramento", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: #66bfbf;
+}
+#top p{
+  font-size: 1.5em;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #66bfbf;
+}
+/* *********************section profile************************ */
+#profile img{
+  border-radius: 50%;
+}
+#profile p{
+  padding: 0 400px;
+}
+/* ***********experience*************************************** */
+#experience .contenu-experience{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  width: 70%;
+}
+.contenu-experience{
+  padding-top: 50px;
+}
+.second-contenu h3{
+  padding-right: 450px;
+  color: #66bfbf;
+  padding-bottom: 30px;
+}
+/* **********************formation************************************ */
+#formation{
+
+}
+.contenu-formation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  width: 70%;
+}
+.contenu-formation p{
+  padding: 0 200px;
+}
+/* ***********************Competences************************************* */
+#competences p{
+  padding: 0 400px;
+}
+#competences a{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 150px;
+  border: 0 solid;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #66bfbf;
+  text-transform: uppercase;
+
+}
+#competences a:hover{
+  background-color: #30e3cd;
+  transition: 0.4s;
+}
+/* *********************footer****************************************** */
+.footer{
+  background-color: #66bfbf;
+  margin-top: 100px;
+  padding: 50px 70px;
+  text-align: center;
+}
+.footer a{
+  display: inline-block;
+  text-decoration: none;
+  color: #474747;
+  margin: 0 10px;
+  padding-bottom: 20px;
+}
+.footer a:hover{
+  color: #fff;
+  transition: 0.3s;
+}
+.footer p{
+  color: #fff;
+}
